@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buy Cake Now</title>
+</head>
+<body>
+
+<div align="center">
+  <h1>Welcome to🍰Dreamy Delights  </h1>
+<form action="/submit-order" method="post">
+
+
+      <label for="quantity">Quantity:</label><br>
+      <input type="number" id="quantity" name="quantity" min="1" value="1" required/>
+       <br>
+        <br>
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required/>
+    <br>
+    <br>
+    <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" required/>
+      <br>
+      <br>     
+      <label for="address">Delivery Address:</label><br>
+      <input type id="address" name="address" rows="3" cols="30" required>
+    <br>
+    <br>
+     <label for="city">City:</label><br>
+      <input type="text" id="city" name="city" required/>
+      <br>
+      <br>
+      <label for="pincode">Pincode:</label><br>
+      <input type="text" id="pincode" name="pincode" required/>
+      <br>
+    <br>
+    <label for="state">State:</label><br>
+      <input type="text" id="state" name="state" required/>
+       <br>
+        <br>
+    <strong>Payment Method:</strong><br>
+      <input type="radio" id="cod" name="payment" value="cod" required/>
+      <label for="cod">Cash on Delivery</label> 
+      <br>
+     <br>
+     <input type="radio" id="card" name="payment" value="card"/>
+      <label for="card">Credit/Debit Card</label>
+      <br>
+      <br>
+      <input type="radio" id="upi" name="payment" value="upi"/>
+      <label for="upi">UPI</label>
+      <br>
+      <br>
+      <input type="submit" value="Buy Now"/>
+    </p>
+</div>
+  </form>
+
+</body>
+</html>
